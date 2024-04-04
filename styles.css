@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#clockButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #fff;
+    background-color: #28a745; /* Grün für Einstempeln */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#logs {
+    margin-top: 20px;
+}
+.stamp {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: left;
+}
+.in {
+    background-color: #d4edda;
+    color: green;
+}
+.out {
+    background-color: #f8d7da;
+    color: red;
+}
+.duration {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.clearButton {
+    display: none;
+    margin-top: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
